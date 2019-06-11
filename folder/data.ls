@@ -1,0 +1,25 @@
+if Meteor.isClient
+
+	@trainingData = [
+		[\trump, "So true, thank you!"]
+		[\kardashian, "Inside Chis nursery"]
+		[\kardashian, "Why I dyed my hair pink"]
+		[\kardashian, "Feeling Blue (waring @kkwbeauty powder contour in medium & dark contour kit as eye shadow, & a new lip coming soon)"]
+		[\kardashian, "I love my mom so much as a blonde!! @KrisJenner @KUWTK"]
+		[\kardashian, "I dont really do wigs . Its real"]
+		[\kardashian, "Wait the thout of going back dark makes me sad. @MyleezaKardash may have influenced me"]
+		[\kardashian, "I went live on instagram! Thank you my BFF Allison for the fun interview and hank you to Creat & Cultivate for having me!"]
+		[\kardashian, "On my way the the @createcultivate event! Im being interviewed about business by my bff Allison. This should be fun!"]
+		[\kardashian, "The sweetest! Best baby! She looks a tiny bit like North and a tiny bit like Saint but definitely her own person!"]
+		[\kardashian, "Fashion Week is so much fun in the KimKardashianGame! Id love to see what youre wearing! http://smarturl.it/PlayKKH"]
+		[\trump, "Congressman Schiff omitted and distorted key facts @FoxNews  So, what else is new. He is a total phony!"]
+		[\trump, "I will be interviewed by @JudgeJeanine on @FoxNews at 9:00 P.M. Enjoy!"]
+		[\trump, "Dem Memo: FBI did not disclose who the clients were - the Clinton Campaign and the DNC. Wow!"]
+		[\trump, "The Democrat memo response on government surveillance abuses is a total political and legal BUST. Just confirms all of the terrible things that were done. SO ILLEGAL!"]
+		[\trump, "Unemployment claims are at the lowest level since 1973. Much of this has to do with the massive cutting of unnecessary and job killing Regulations!"]
+		[\trump, "So true Wayne, and Lowest black unemployment in history!"]
+		[\trump, "Thank you to the great men and women of the United States @SecretService for a job well done!"]
+		[\trump, "Today, @FLOTUS Melania and I were honored to welcome Prime Minister @TurnbullMalcolm and Mrs. Turnbull of Australia to the @WhiteHouse!"]
+		[\trump, "After years of rebuilding OTHER nations, we are finally rebuilding OUR nation - and we are restoring our confidence and our pride!"]
+		[\trump, "So true, thank you!"]
+	]map -> input: it.1, output: "#{it.0}": 1
