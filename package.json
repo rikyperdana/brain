@@ -9,7 +9,7 @@
     "brain.js": "^1.6.1",
     "bulma-extensions": "^2.2.1",
     "meteor-node-stubs": "^0.3.2",
-    "mithril": "^1.1.6",
+    "mithril": "^1.1.7",
     "simpl-schema": "^1.5.0"
   }
 }
